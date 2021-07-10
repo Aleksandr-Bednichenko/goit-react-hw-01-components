@@ -5,9 +5,8 @@ import styles from'./Transactions.module.css'
 
 const Transactions = () =>( 
 <>
-    
-    <table className={styles.history}>   
-    <p>Задание 4</p> 
+<p>Задание 4 </p> 
+    <table className={styles.history}>       
         <TransactionHeader
         type = "Type"
         amount = "Amount"

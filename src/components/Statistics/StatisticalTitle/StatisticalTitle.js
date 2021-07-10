@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import styles from './StatisticalTitle.module.css'
 
 
-const StatisticalTitle = ({title}) =>(
-
-    <h2 className={styles.title}>{title}</h2>
+const StatisticalTitle = ({title}) => ({title} && <h2 className={styles.title}>{title}</h2>)
     
-)
+    
+
+
 
 StatisticalTitle.defaultProps = {
     title: ' '
