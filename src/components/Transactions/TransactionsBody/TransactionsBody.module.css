@@ -1,0 +1,23 @@
+.elements {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.element {
+  display: block;
+  text-align: center;
+  align-self: center;
+  width: 300px;
+  padding: 10px 1px;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+.table {
+  margin: 0px;
+  border-spacing: 0px;
+}
