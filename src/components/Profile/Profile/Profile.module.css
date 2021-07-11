@@ -6,3 +6,32 @@
   margin-right: auto;
   text-align: center;
 }
+
+.avatar {
+  display: blok;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.description {
+  background-color: rgb(197, 193, 193);
+  padding-bottom: 20px;
+}
+
+.name {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.tag,
+.location {
+  color: grey;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 0px;
+}

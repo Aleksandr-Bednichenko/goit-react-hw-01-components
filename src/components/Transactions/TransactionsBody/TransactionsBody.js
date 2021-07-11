@@ -1,16 +1,11 @@
 import React from "react";
-import transactions from "../../../transactions.json";
 import styles from './TransactionsBody.module.css'
 
-const TransactionBody = () => (
-  <tbody className={styles.table}>
-    {transactions.map((transaction) => (
-      <tr className={styles.elements} key={transaction.id}>
-        <td className={styles.element}>{transaction.type}</td>
-        <td className={styles.element}>{transaction.amount}</td>
-        <td className={styles.element}>{transaction.currency}</td>
-      </tr>
-    ))}
-  </tbody>
-)
+const TransactionBody = ({id,type,amount,currency}) => (
+ <tr className={styles.elements} key={id}>
+   <td className={styles.element}>{type}</td>
+   <td className={styles.element}>{amount}</td>
+   <td className={styles.element}>{currency}</td>
+  </tr>
+  )
 export default TransactionBody;

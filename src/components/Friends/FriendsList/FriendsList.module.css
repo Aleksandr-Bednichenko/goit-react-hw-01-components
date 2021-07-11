@@ -8,3 +8,7 @@
   padding: 20px 0px;
   text-align: center;
 }
+
+.list {
+  list-style-type: none;
+}
